@@ -7,10 +7,10 @@ import org.springframework.stereotype.Service;
 
 @Service
 @Log4j2
-public class Consumer {
+public class ConsumerService {
     private final MessageService messageService;
 
-    public Consumer(MessageService messageService){
+    public ConsumerService(MessageService messageService){
         this.messageService = messageService;
     }
 
